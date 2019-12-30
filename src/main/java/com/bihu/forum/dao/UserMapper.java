@@ -44,7 +44,7 @@ public interface UserMapper {
      * @param status
      * @return
      */
-    void updateUserStatus(int id,int status);
+    void updateStatus(int id,int status);
 
     /**
      * 更改headerUrl
