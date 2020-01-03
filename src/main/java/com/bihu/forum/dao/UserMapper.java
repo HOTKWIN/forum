@@ -52,7 +52,7 @@ public interface UserMapper {
      * @param headerUrl
      * @return
      */
-    void updateHeaderUrl(int id,String headerUrl);
+    int updateHeader(int id,String headerUrl);
 
     /**
      * 更改密码
